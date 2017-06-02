@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - GTProgressBar (0.1.2)
+  - LTMorphingLabel (0.5.0)
+  - Realm (2.0.4):
+    - Realm/Headers (= 2.0.4)
+  - Realm/Headers (2.0.4)
+  - RealmSwift (2.0.4):
+    - Realm (= 2.0.4)
+  - TextImageButton (0.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Charts (~> 3.0.1)
+  - GTProgressBar
+  - LTMorphingLabel (~> 0.5)
+  - RealmSwift (~> 2.0.2)
+  - TextImageButton (~> 0.2)
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  GTProgressBar: 782c61ac00535b01536ddc5246f5abecfc44dede
+  LTMorphingLabel: bc170be74b219b7dae0e5543a44676d16da70ff7
+  Realm: 9da97f48365f8b99dd95c28d45ad8222d62e1775
+  RealmSwift: 01e8db006035f16003e6307ae8eae1adccce68db
+  TextImageButton: cb9c8076894860d39330edaa12c476f9fa0fc126
+
+PODFILE CHECKSUM: 240dfe13ab3fdb1b0b84706f6e7cc1ee7b14487a
+
+COCOAPODS: 1.2.1

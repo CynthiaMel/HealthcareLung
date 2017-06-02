@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A57973B6AF3ACE0DB0FF880 /* Pods_HealthcareLung3_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB53F42C87DA66D6922BC3F8 /* Pods_HealthcareLung3_0.framework */; };
+		267CA9E129233532C5861752 /* Pods_HealthcareLung3_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B744A1EFAD7998DD8D183FBF /* Pods_HealthcareLung3_0Tests.framework */; };
+		47A6BA182A6D68BF92453AAC /* Pods_HealthcareLung3_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008112C60D723D467AAFC37F /* Pods_HealthcareLung3_0UITests.framework */; };
+		DC14DF501ECC4B17001B3EF1 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC14DF4F1ECC4B17001B3EF1 /* UserNotifications.framework */; };
+		DC404AF61EADFA550023C0EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC404AF51EADFA550023C0EC /* AppDelegate.swift */; };
+		DC404AFB1EADFA550023C0EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC404AF91EADFA550023C0EC /* Main.storyboard */; };
+		DC404AFE1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC404AFC1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodeld */; };
+		DC404B001EADFA550023C0EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC404AFF1EADFA550023C0EC /* Assets.xcassets */; };
+		DC404B0E1EADFA550023C0EC /* HealthcareLung3_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC404B0D1EADFA550023C0EC /* HealthcareLung3_0Tests.swift */; };
+		DC404B191EADFA550023C0EC /* HealthcareLung3_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC404B181EADFA550023C0EC /* HealthcareLung3_0UITests.swift */; };
+		DC9BCC3E1EB0F09200852A08 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9BCC3D1EB0F09200852A08 /* loginVC.swift */; };
+		DC9F76F51EB625D700A70225 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F76F41EB625D700A70225 /* mainVC.swift */; };
+		DC9F76F71EB6F36400A70225 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9F76F61EB6F36400A70225 /* MapKit.framework */; };
+		DC9F76F91EB6F53200A70225 /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9F76F81EB6F53200A70225 /* ChartData.swift */; };
+		DCCD6DA71EB4D4CE00136140 /* TrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6DA51EB4B61800136140 /* TrackVC.swift */; };
+		DCCD6DA91EB6169800136140 /* hisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD6DA81EB6169800136140 /* hisVC.swift */; };
+		DCF2FAE81EAF710100EE388D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCF2FAE71EAF710100EE388D /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		DCCD6DA21EB37B6800136140 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		DC404B0A1EADFA550023C0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC404AEA1EADFA550023C0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC404AF11EADFA550023C0EC;
+			remoteInfo = HealthcareLung3.0;
+		};
+		DC404B151EADFA550023C0EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC404AEA1EADFA550023C0EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC404AF11EADFA550023C0EC;
+			remoteInfo = HealthcareLung3.0;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008112C60D723D467AAFC37F /* Pods_HealthcareLung3_0UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthcareLung3_0UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11AFE10EAD46C4DC1B2482C5 /* Pods-HealthcareLung3.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0Tests/Pods-HealthcareLung3.0Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34A2433B6E7916A899F1BBAB /* Pods-HealthcareLung3.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0/Pods-HealthcareLung3.0.debug.xcconfig"; sourceTree = "<group>"; };
+		4CB5B55E58B86CD48874EC76 /* Pods-HealthcareLung3.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0UITests/Pods-HealthcareLung3.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B82DA3C48BF4E61B5D7F7AF /* Pods-HealthcareLung3.0UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0UITests/Pods-HealthcareLung3.0UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E98AB05652DB885B08E6884 /* Pods-HealthcareLung3.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0Tests/Pods-HealthcareLung3.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B744A1EFAD7998DD8D183FBF /* Pods_HealthcareLung3_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthcareLung3_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB53F42C87DA66D6922BC3F8 /* Pods_HealthcareLung3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HealthcareLung3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FDD1CD8688CF9A313D1648 /* Pods-HealthcareLung3.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HealthcareLung3.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-HealthcareLung3.0/Pods-HealthcareLung3.0.release.xcconfig"; sourceTree = "<group>"; };
+		DC14DF4F1ECC4B17001B3EF1 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		DC1657EF1EB70C89000D31B0 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC404AF21EADFA550023C0EC /* HealthcareLung3.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthcareLung3.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC404AF51EADFA550023C0EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC404AFA1EADFA550023C0EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC404AFD1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HealthcareLung3_0.xcdatamodel; sourceTree = "<group>"; };
+		DC404AFF1EADFA550023C0EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC404B041EADFA550023C0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC404B091EADFA550023C0EC /* HealthcareLung3.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthcareLung3.0Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC404B0D1EADFA550023C0EC /* HealthcareLung3_0Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareLung3_0Tests.swift; sourceTree = "<group>"; };
+		DC404B0F1EADFA550023C0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC404B141EADFA550023C0EC /* HealthcareLung3.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthcareLung3.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC404B181EADFA550023C0EC /* HealthcareLung3_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthcareLung3_0UITests.swift; sourceTree = "<group>"; };
+		DC404B1A1EADFA550023C0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC92FBE91EC961D100BED704 /* HealthcareLung3.0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthcareLung3.0.entitlements; sourceTree = "<group>"; };
+		DC9BCC3D1EB0F09200852A08 /* loginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		DC9F76F41EB625D700A70225 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		DC9F76F61EB6F36400A70225 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DC9F76F81EB6F53200A70225 /* ChartData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		DC9F76FA1EB6F6AB00A70225 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9F76FE1EB6F6B400A70225 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9F77011EB6F6BA00A70225 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB200271ECDF2F80017D48D /* ForecastView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ForecastView.framework; path = "Pods/../build/Debug-iphoneos/ForecastView/ForecastView.framework"; sourceTree = "<group>"; };
+		DCCD6DA51EB4B61800136140 /* TrackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackVC.swift; sourceTree = "<group>"; };
+		DCCD6DA81EB6169800136140 /* hisVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hisVC.swift; sourceTree = "<group>"; };
+		DCF2FAE71EAF710100EE388D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC404AEF1EADFA550023C0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC14DF501ECC4B17001B3EF1 /* UserNotifications.framework in Frameworks */,
+				DC9F76F71EB6F36400A70225 /* MapKit.framework in Frameworks */,
+				1A57973B6AF3ACE0DB0FF880 /* Pods_HealthcareLung3_0.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B061EADFA550023C0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267CA9E129233532C5861752 /* Pods_HealthcareLung3_0Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B111EADFA550023C0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6BA182A6D68BF92453AAC /* Pods_HealthcareLung3_0UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60B68804F9E9630187B84878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB200271ECDF2F80017D48D /* ForecastView.framework */,
+				DC14DF4F1ECC4B17001B3EF1 /* UserNotifications.framework */,
+				DC9F76F61EB6F36400A70225 /* MapKit.framework */,
+				BB53F42C87DA66D6922BC3F8 /* Pods_HealthcareLung3_0.framework */,
+				DC9F77011EB6F6BA00A70225 /* Charts.framework */,
+				DC9F76FE1EB6F6B400A70225 /* RealmSwift.framework */,
+				DC9F76FA1EB6F6AB00A70225 /* Realm.framework */,
+				B744A1EFAD7998DD8D183FBF /* Pods_HealthcareLung3_0Tests.framework */,
+				008112C60D723D467AAFC37F /* Pods_HealthcareLung3_0UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC404AE91EADFA550023C0EC = {
+			isa = PBXGroup;
+			children = (
+				DC1657EF1EB70C89000D31B0 /* Charts.framework */,
+				DC404AF41EADFA550023C0EC /* HealthcareLung3.0 */,
+				DC404B0C1EADFA550023C0EC /* HealthcareLung3.0Tests */,
+				DC404B171EADFA550023C0EC /* HealthcareLung3.0UITests */,
+				DC404AF31EADFA550023C0EC /* Products */,
+				EB872BDB4540CB2AABD4A18E /* Pods */,
+				60B68804F9E9630187B84878 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC404AF31EADFA550023C0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC404AF21EADFA550023C0EC /* HealthcareLung3.0.app */,
+				DC404B091EADFA550023C0EC /* HealthcareLung3.0Tests.xctest */,
+				DC404B141EADFA550023C0EC /* HealthcareLung3.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC404AF41EADFA550023C0EC /* HealthcareLung3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				DC92FBE91EC961D100BED704 /* HealthcareLung3.0.entitlements */,
+				DCE085851EB06B17009175CD /* View */,
+				DCE085841EB06B00009175CD /* Controller */,
+				DCE085831EB060EB009175CD /* Model */,
+				DC404AF51EADFA550023C0EC /* AppDelegate.swift */,
+				DC404AFC1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodeld */,
+				DC404AFF1EADFA550023C0EC /* Assets.xcassets */,
+				DC404B041EADFA550023C0EC /* Info.plist */,
+				DCF2FAE71EAF710100EE388D /* GoogleService-Info.plist */,
+			);
+			path = HealthcareLung3.0;
+			sourceTree = "<group>";
+		};
+		DC404B0C1EADFA550023C0EC /* HealthcareLung3.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DC404B0D1EADFA550023C0EC /* HealthcareLung3_0Tests.swift */,
+				DC404B0F1EADFA550023C0EC /* Info.plist */,
+			);
+			path = HealthcareLung3.0Tests;
+			sourceTree = "<group>";
+		};
+		DC404B171EADFA550023C0EC /* HealthcareLung3.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC404B181EADFA550023C0EC /* HealthcareLung3_0UITests.swift */,
+				DC404B1A1EADFA550023C0EC /* Info.plist */,
+			);
+			path = HealthcareLung3.0UITests;
+			sourceTree = "<group>";
+		};
+		DCE085831EB060EB009175CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC9F76F81EB6F53200A70225 /* ChartData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DCE085841EB06B00009175CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC9F76F41EB625D700A70225 /* mainVC.swift */,
+				DC9BCC3D1EB0F09200852A08 /* loginVC.swift */,
+				DCCD6DA51EB4B61800136140 /* TrackVC.swift */,
+				DCCD6DA81EB6169800136140 /* hisVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DCE085851EB06B17009175CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC404AF91EADFA550023C0EC /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EB872BDB4540CB2AABD4A18E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A2433B6E7916A899F1BBAB /* Pods-HealthcareLung3.0.debug.xcconfig */,
+				C5FDD1CD8688CF9A313D1648 /* Pods-HealthcareLung3.0.release.xcconfig */,
+				7E98AB05652DB885B08E6884 /* Pods-HealthcareLung3.0Tests.debug.xcconfig */,
+				11AFE10EAD46C4DC1B2482C5 /* Pods-HealthcareLung3.0Tests.release.xcconfig */,
+				4CB5B55E58B86CD48874EC76 /* Pods-HealthcareLung3.0UITests.debug.xcconfig */,
+				5B82DA3C48BF4E61B5D7F7AF /* Pods-HealthcareLung3.0UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC404AF11EADFA550023C0EC /* HealthcareLung3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC404B1D1EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0" */;
+			buildPhases = (
+				451EFAB738B1E24D9FEA89F4 /* [CP] Check Pods Manifest.lock */,
+				DC404AEE1EADFA550023C0EC /* Sources */,
+				DC404AEF1EADFA550023C0EC /* Frameworks */,
+				DC404AF01EADFA550023C0EC /* Resources */,
+				32F3ECA90552D3429DE9A0F2 /* [CP] Embed Pods Frameworks */,
+				F0A76704B541C0E5DD058E06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+				DCCD6DA21EB37B6800136140 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = HealthcareLung3.0;
+			productName = HealthcareLung3.0;
+			productReference = DC404AF21EADFA550023C0EC /* HealthcareLung3.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC404B081EADFA550023C0EC /* HealthcareLung3.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC404B201EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0Tests" */;
+			buildPhases = (
+				A2BAFB35890881802E70294F /* [CP] Check Pods Manifest.lock */,
+				DC404B051EADFA550023C0EC /* Sources */,
+				DC404B061EADFA550023C0EC /* Frameworks */,
+				DC404B071EADFA550023C0EC /* Resources */,
+				9669677688733B68DEDAD5BF /* [CP] Embed Pods Frameworks */,
+				13EC6F85CE3DC319DEBB2279 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC404B0B1EADFA550023C0EC /* PBXTargetDependency */,
+			);
+			name = HealthcareLung3.0Tests;
+			productName = HealthcareLung3.0Tests;
+			productReference = DC404B091EADFA550023C0EC /* HealthcareLung3.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC404B131EADFA550023C0EC /* HealthcareLung3.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC404B231EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0UITests" */;
+			buildPhases = (
+				E08CB6750DE6AB34DE0DB1CC /* [CP] Check Pods Manifest.lock */,
+				DC404B101EADFA550023C0EC /* Sources */,
+				DC404B111EADFA550023C0EC /* Frameworks */,
+				DC404B121EADFA550023C0EC /* Resources */,
+				B591309C462793A2788039BA /* [CP] Embed Pods Frameworks */,
+				A618BA9602C109D22A2DC1F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC404B161EADFA550023C0EC /* PBXTargetDependency */,
+			);
+			name = HealthcareLung3.0UITests;
+			productName = HealthcareLung3.0UITests;
+			productReference = DC404B141EADFA550023C0EC /* HealthcareLung3.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC404AEA1EADFA550023C0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cynthia;
+				TargetAttributes = {
+					DC404AF11EADFA550023C0EC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = QHGYTA6AZY;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					DC404B081EADFA550023C0EC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YMKCUP96T4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC404AF11EADFA550023C0EC;
+					};
+					DC404B131EADFA550023C0EC = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YMKCUP96T4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC404AF11EADFA550023C0EC;
+					};
+				};
+			};
+			buildConfigurationList = DC404AED1EADFA550023C0EC /* Build configuration list for PBXProject "HealthcareLung3.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC404AE91EADFA550023C0EC;
+			productRefGroup = DC404AF31EADFA550023C0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC404AF11EADFA550023C0EC /* HealthcareLung3.0 */,
+				DC404B081EADFA550023C0EC /* HealthcareLung3.0Tests */,
+				DC404B131EADFA550023C0EC /* HealthcareLung3.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC404AF01EADFA550023C0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC404B001EADFA550023C0EC /* Assets.xcassets in Resources */,
+				DC404AFB1EADFA550023C0EC /* Main.storyboard in Resources */,
+				DCF2FAE81EAF710100EE388D /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B071EADFA550023C0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B121EADFA550023C0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13EC6F85CE3DC319DEBB2279 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0Tests/Pods-HealthcareLung3.0Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F3ECA90552D3429DE9A0F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0/Pods-HealthcareLung3.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		451EFAB738B1E24D9FEA89F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9669677688733B68DEDAD5BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0Tests/Pods-HealthcareLung3.0Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2BAFB35890881802E70294F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A618BA9602C109D22A2DC1F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0UITests/Pods-HealthcareLung3.0UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B591309C462793A2788039BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0UITests/Pods-HealthcareLung3.0UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08CB6750DE6AB34DE0DB1CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0A76704B541C0E5DD058E06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthcareLung3.0/Pods-HealthcareLung3.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC404AEE1EADFA550023C0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9BCC3E1EB0F09200852A08 /* loginVC.swift in Sources */,
+				DC404AFE1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodeld in Sources */,
+				DC404AF61EADFA550023C0EC /* AppDelegate.swift in Sources */,
+				DCCD6DA91EB6169800136140 /* hisVC.swift in Sources */,
+				DC9F76F91EB6F53200A70225 /* ChartData.swift in Sources */,
+				DC9F76F51EB625D700A70225 /* mainVC.swift in Sources */,
+				DCCD6DA71EB4D4CE00136140 /* TrackVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B051EADFA550023C0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC404B0E1EADFA550023C0EC /* HealthcareLung3_0Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC404B101EADFA550023C0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC404B191EADFA550023C0EC /* HealthcareLung3_0UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC404B0B1EADFA550023C0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC404AF11EADFA550023C0EC /* HealthcareLung3.0 */;
+			targetProxy = DC404B0A1EADFA550023C0EC /* PBXContainerItemProxy */;
+		};
+		DC404B161EADFA550023C0EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC404AF11EADFA550023C0EC /* HealthcareLung3.0 */;
+			targetProxy = DC404B151EADFA550023C0EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC404AF91EADFA550023C0EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC404AFA1EADFA550023C0EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC404B1B1EADFA550023C0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC404B1C1EADFA550023C0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC404B1E1EADFA550023C0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A2433B6E7916A899F1BBAB /* Pods-HealthcareLung3.0.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthcareLung3.0/HealthcareLung3.0.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QHGYTA6AZY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ForecastView",
+				);
+				INFOPLIST_FILE = HealthcareLung3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = healthcarelung.eresearch.unimelb.edu.au;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DC404B1F1EADFA550023C0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FDD1CD8688CF9A313D1648 /* Pods-HealthcareLung3.0.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HealthcareLung3.0/HealthcareLung3.0.entitlements;
+				DEVELOPMENT_TEAM = QHGYTA6AZY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ForecastView",
+				);
+				INFOPLIST_FILE = HealthcareLung3.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = healthcarelung.eresearch.unimelb.edu.au;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DC404B211EADFA550023C0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E98AB05652DB885B08E6884 /* Pods-HealthcareLung3.0Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YMKCUP96T4;
+				INFOPLIST_FILE = HealthcareLung3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YueChen.HealthcareLung3.0.HealthcareLung3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthcareLung3.0.app/HealthcareLung3.0";
+			};
+			name = Debug;
+		};
+		DC404B221EADFA550023C0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11AFE10EAD46C4DC1B2482C5 /* Pods-HealthcareLung3.0Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YMKCUP96T4;
+				INFOPLIST_FILE = HealthcareLung3.0Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YueChen.HealthcareLung3.0.HealthcareLung3-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthcareLung3.0.app/HealthcareLung3.0";
+			};
+			name = Release;
+		};
+		DC404B241EADFA550023C0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB5B55E58B86CD48874EC76 /* Pods-HealthcareLung3.0UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YMKCUP96T4;
+				INFOPLIST_FILE = HealthcareLung3.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YueChen.HealthcareLung3.0.HealthcareLung3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HealthcareLung3.0;
+			};
+			name = Debug;
+		};
+		DC404B251EADFA550023C0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B82DA3C48BF4E61B5D7F7AF /* Pods-HealthcareLung3.0UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YMKCUP96T4;
+				INFOPLIST_FILE = HealthcareLung3.0UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YueChen.HealthcareLung3.0.HealthcareLung3-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HealthcareLung3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC404AED1EADFA550023C0EC /* Build configuration list for PBXProject "HealthcareLung3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC404B1B1EADFA550023C0EC /* Debug */,
+				DC404B1C1EADFA550023C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC404B1D1EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC404B1E1EADFA550023C0EC /* Debug */,
+				DC404B1F1EADFA550023C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC404B201EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC404B211EADFA550023C0EC /* Debug */,
+				DC404B221EADFA550023C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC404B231EADFA550023C0EC /* Build configuration list for PBXNativeTarget "HealthcareLung3.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC404B241EADFA550023C0EC /* Debug */,
+				DC404B251EADFA550023C0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC404AFC1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC404AFD1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodel */,
+			);
+			currentVersion = DC404AFD1EADFA550023C0EC /* HealthcareLung3_0.xcdatamodel */;
+			path = HealthcareLung3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC404AEA1EADFA550023C0EC /* Project object */;
+}
