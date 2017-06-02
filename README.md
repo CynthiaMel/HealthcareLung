@@ -4,7 +4,7 @@ Run this Project:
 2. Set apple team account as "Richard Sinnott".
 3. Connect an iPhone to MacBook and then build and run this project.
 
-GitHub: https://github.com/CynthiaMel/HealthcareLung3.0withWeb
+GitHub: https://github.com/CynthiaMel/HealthcareLung
 
 Two way to view the demo of this project:
 
