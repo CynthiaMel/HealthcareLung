@@ -9,5 +9,5 @@ GitHub: https://github.com/CynthiaMel/HealthcareLung
 Two way to view the demo of this project:
 
 1. Play the Keynote file named Project Demo. This file contains many GIF file to show the main features.
-2. Visit youtube video: [https://www.youtube.com/watch?v=X0VpUcqHiKU&feature=youtu.be](https://www.youtube.com/watch?v=X0VpUcqHiKU&feature=youtu.be)
+2. Visit youtube video: https://youtu.be/2jvt9qLkVUE
 
