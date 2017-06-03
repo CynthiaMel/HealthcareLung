@@ -8,8 +8,6 @@ Run this Project:
 
 GitHub: https://github.com/CynthiaMel/HealthcareLung
 
-Two way to view the demo of this project:
+To view the demo of this project, please visit youtube video: https://youtu.be/2jvt9qLkVUE
 
-1. Play the Keynote file named Project Demo. This file contains many GIF file to show the main features.
-2. Visit youtube video: https://youtu.be/2jvt9qLkVUE
 
